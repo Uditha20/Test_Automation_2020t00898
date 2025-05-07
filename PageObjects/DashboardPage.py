@@ -6,7 +6,7 @@ class DashboardPage:
         self.driver = driver
         # Locators for dashboard page header, My Leave icon, and logout elements
         self.dashboard_header = (By.XPATH, "//h6[text()='Dashboard']")
-        self.my_leave_icon = (By.XPATH, "//p[text()='My Leave']")
+        self.my_leave_icon = (By.XPATH, "//button[@title='My Leave']")
         self.user_dropdown = (By.XPATH, "//span[@class='oxd-userdropdown-tab']")
         self.logout_link = (By.XPATH, "//a[text()='Logout']")
 
